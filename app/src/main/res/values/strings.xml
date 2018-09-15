@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdvancedRecyclerView</string>
+
+    <string name="button_add">Add</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+
+</resources>

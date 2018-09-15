@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        style="@style/editText"
+        android:hint="@string/hint_first_name"/>
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        style="@style/editText"
+        android:imeOptions="actionDone"
+        android:hint="@string/hint_last_name"/>
+
+    <Button
+        android:id="@+id/buttonEdit"
+        style="@style/genericView"
+        android:text="@string/button_edit"/>
+
+    <Button
+        android:id="@+id/buttonCancel"
+        style="@style/genericView"
+        android:text="@string/button_cancel"/>
+
+</LinearLayout>
